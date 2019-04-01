@@ -9,7 +9,9 @@ RSPM - Respirable Suspended Particulate Matter with size 2.5 micrometers and low
 There are varied reasons for this phenomenon e.g.:
 
 ** Setting of winter-cold air in the lower atmosphere creates a thick blanket which traps pollution.
+
 ** Farmers burning left-over crops in-around the same time, adding soot and other particulate matters.
+
 ** General pollution from chemicals used in fireworks(this was a huge debate point and Supreme Court of India banned fireworks celebration on Diwali in 2018 - but still the AQI was below breathable and there was no improvement)
 
 Albeit, there are compunding effects from various sources contributing to the detoriation of Air Quality Index of Delhi. Below news links de-lineate the scope of the problem.
@@ -29,10 +31,15 @@ New Links:
 * Version of Libraries used:
 
 Python version --  3.6.1 
+
 numpy version --  1.14.2
+
 pandas version --  0.22.0
+
 matplotlib version -- 1.14.2
+
 seaborn version --  0.7.1
+
 tensorflow version --  1.5.0
 
 * Source of Data
@@ -66,5 +73,4 @@ http://dosairnowdata.org/dos/historical/NewDelhi/2015/NewDelhi_PM2.5_2015_YTD.cs
 * Cusotmized seasonal component helps the model for the accuracy
 * Fairly accurate prediction using ARIMA 
 * Model can be used to forecast and predict on future peaks in RSPM for Delhi's AQI
-
 
