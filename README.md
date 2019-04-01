@@ -1,7 +1,9 @@
 # Delhi_RSPM_Issue
 Delhi Air Quality Index (AQI) / (Respirable Suspended Particulate Matter < 2.5 micrometers) RSPM 2.5 Problem & Predicting the peak using POC on ARIMA/FbProphet
 
-* Introduction to the Phenomenon
+* Introduction to the Phenomenon & Scope of the problem
+
+![](Delhi_AQI.png)
 
 ## Problem: 
 Every year there is horrible air quality in Delhi around Nov-Dec, which contributes to the numerous road accidents due to low visiblity and creates a health hazard for an already polluted city.
