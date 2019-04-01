@@ -3,7 +3,8 @@ Delhi Air Quality Index (AQI) / (Respirable Suspended Particulate Matter < 2.5 m
 
 * Introduction to the Phenomenon
 
-## Problem: Every year there is horrible air quality in Delhi around Nov-Dec, which contributes to the numerous road accidents due to low visiblity and creates a health hazard for an already polluted city.
+## Problem: 
+Every year there is horrible air quality in Delhi around Nov-Dec, which contributes to the numerous road accidents due to low visiblity and creates a health hazard for an already polluted city.
 
 RSPM - Respirable Suspended Particulate Matter with size 2.5 micrometers and lower is the main culprit.
 There are varied reasons for this phenomenon e.g.:
@@ -24,9 +25,11 @@ New Links:
 
 [Living in Delhi is as smoking 45 cigarettes a day](https://qz.com/india/1124049/air-pollution-in-new-delhi-has-the-health-effect-of-smoking-45-cigarettes-a-day/)
 
-## Inference: This POC is an effort to predict the peak of the RSPM - Respirable Suspended Particulate Matter in Delhi Air by analyzing the timeseries behaviour.
+## Inference: 
+This POC is an effort to predict the peak of the RSPM - Respirable Suspended Particulate Matter in Delhi Air by analyzing the timeseries behaviour.
 
-## Goal: If there is model that can analyze the timeseries behaviour and can predcit the worse levels of RSPM correctly on a weekly granualarity, the alerting mechanism can be generated to predict the Air Quality in advance i.e. effectively predicting the RSPM & defining Air Quality Index of Delhi 1 or 2 weeks before the peak.
+## Goal: 
+If there is model that can analyze the timeseries behaviour and can predcit the worse levels of RSPM correctly on a weekly granualarity, the alerting mechanism can be generated to predict the Air Quality in advance i.e. effectively predicting the RSPM & defining Air Quality Index of Delhi 1 or 2 weeks before the peak.
 
 * Version of Libraries used:
 
@@ -73,4 +76,8 @@ http://dosairnowdata.org/dos/historical/NewDelhi/2015/NewDelhi_PM2.5_2015_YTD.cs
 * Cusotmized seasonal component helps the model for the accuracy
 * Fairly accurate prediction using ARIMA 
 * Model can be used to forecast and predict on future peaks in RSPM for Delhi's AQI
+
+## Results of ARIMA seasonal for 9 months as Test/Forecast sample
+
+<img width="867" alt="Delhi_AQI_2" src="https://user-images.githubusercontent.com/26288770/55310970-b12c6080-5416-11e9-9d6d-6e3fcabf4ca2.png">
 
